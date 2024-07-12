@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Let's you choose an Impostor, which will be changed after they Death",
+        "description": "You'll start in one block wide border. But every kill expands it.",
         "pack_format": 26
     }
 }
