@@ -110,7 +110,7 @@ I used part of another datapack with same purpose. I didn't like his crafting id
 To install datapack you can follow these steps:
 
 1. Download the desired datapack.
-2. Place the datapack in the "datapacks" folder of your Minecraft world. The folder path typically is: `.minecraft\saves\YourWorldName\datapacks`.
+2. Place the datapack in the "datapacks" folder of your Minecraft world. The folder path typically is: `.minecraft\saves\*YourWorldName*\datapacks`.
 3. Make sure that datapack is folder, not a zip file
 4. Run minecraft and use ```/datapack list``` to see your datapacks list. It will look like: `There are 2 data pack(s) enabled: [vanilla (built-in)], [file/SelectedDatapack (world)]`. Other mods/datapacks may also be listed.
 5. Use instructions relating to data packs.
