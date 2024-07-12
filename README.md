@@ -75,17 +75,16 @@ With with datapack you can craft:
 #### Portal Wand
 You can use it to create portals.
 
-![portal_wand_recipe](https://github.com/LesPitya/datapacksarchive/blob/main/imgs/portal_wand_recipe.png)
+<img src="https://github.com/LesPitya/datapacksarchive/blob/main/imgs/portal_wand_recipe.png" alt="portal_wand_recipe" width="50%" height="50%">
 
 #### Portals Helper Blocks
 You can use it to create portals any shapes by creating a frame like nether one.
-
-![helper_blocks_recipe](https://github.com/LesPitya/datapacksarchive/blob/main/imgs/helper_blocks_recipe.png)
+<img src="https://github.com/LesPitya/datapacksarchive/blob/main/imgs/helper_blocks_recipe.png" alt="helper_blocks_recipe" width="50%" height="50%">
 
 #### Command Stick
 Have no uses without special NBT data. But you still can craft it, if you want to.
 
-![command_stick_recipe](https://github.com/LesPitya/datapacksarchive/blob/main/imgs/command_stick_recipe.png)
+<img src="https://github.com/LesPitya/datapacksarchive/blob/main/imgs/command_stick_recipe.png" alt="command_stick_recipe" width="50%" height="50%">
 
 ### Plans
 
