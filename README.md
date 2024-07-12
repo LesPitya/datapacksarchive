@@ -79,6 +79,7 @@ You can use it to create portals.
 
 #### Portals Helper Blocks
 You can use it to create portals any shapes by creating a frame like nether one.
+
 <img src="https://github.com/LesPitya/datapacksarchive/blob/main/imgs/helper_blocks_recipe.png" alt="helper_blocks_recipe" width="50%" height="50%">
 
 #### Command Stick
