@@ -1,0 +1,42 @@
+{
+    "category": "misc",
+    "key": {
+        "1": {
+            "item": "minecraft:diamond"
+        },
+        "2": {
+            "item": "minecraft:iron_ingot"
+        },
+        "3": {
+            "item": "minecraft:emerald"
+        },
+        "4": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "5": {
+            "item": "minecraft:stick"
+        },
+        "6": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "7": {
+            "item": "minecraft:quartz"
+        },
+        "8": {
+            "item": "minecraft:redstone"
+        },
+        "9": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "pattern": [
+        "123",
+        "456",
+        "789"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersive_portals:command_stick"
+    },
+    "type": "minecraft:crafting_shaped"
+}

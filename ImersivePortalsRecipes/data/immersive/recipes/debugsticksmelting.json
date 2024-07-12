@@ -1,0 +1,10 @@
+{
+    "category": "misc",
+    "cookingtime": 1000,
+    "experience": 18,
+    "ingredient": {
+        "item": "immersive_portals:portal_wand"
+    },
+    "result": "immersive_portals:command_stick",
+    "type": "minecraft:smelting"
+}

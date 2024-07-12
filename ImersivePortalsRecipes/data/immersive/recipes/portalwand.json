@@ -1,0 +1,27 @@
+{
+    "category": "misc",
+    "key": {
+        "1": {
+            "item": "minecraft:ender_pearl"
+        },
+        "2": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "3": {
+            "item": "minecraft:stick"
+        },
+        "4": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "pattern": [
+        "1 2",
+        " 3 ",
+        "2 4"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersive_portals:portal_wand"
+    },
+    "type": "minecraft:crafting_shaped"
+}
