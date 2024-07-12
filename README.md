@@ -89,8 +89,8 @@ Have no uses without special NBT data. But you still can craft it, if you want t
 
 ### Plans
 
-I plan update with datapack for minecraft 1.21 and make some "command sticks" craftable. In previous versions it's not impossible, but I dislike the idea of creating "Knowledge book" instead of items. 
-Maybe I am going to make some of theme makeable by throwing some items, but I can't be sure about it.
+I plan to update with datapack for Minecraft 1.21 and make some "command sticks" craftable. It's not impossible in previous versions, but I don't like the idea of crafting "Knowledge book" instead of item. 
+Maybe I will make some of them craftable by throwing some items, but I am not sure.
 
 ### Important
 
