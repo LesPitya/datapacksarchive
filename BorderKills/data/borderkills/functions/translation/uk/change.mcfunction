@@ -1,0 +1,1 @@
+title @a actionbar [{"text":"Бар'єр збільшується на ","color":"white"},{"score":{"name":"Changer","objective":"BorderChangerKills"},"color":"gold"}, {"text":" блок(ів)","color":"white"}]

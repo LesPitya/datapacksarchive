@@ -1,0 +1,1 @@
+function borderkills:checkscore with storage minecraft:borderchanger translation
