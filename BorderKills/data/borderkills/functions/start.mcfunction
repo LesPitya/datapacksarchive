@@ -31,7 +31,5 @@ execute store result storage minecraft:borderchanger Center.z int 1 run data get
 function borderkills:setcenter with storage minecraft:borderchanger Center
 schedule function borderkills:checkscorereload 5s
 
-tp @a @s
-
 worldborder warning distance 0
 worldborder set 1 10
