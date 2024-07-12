@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 15,
-		"description": "1.16 datapack template"
+		"pack_format": 26,
+		"description": "Create non-craftable items from immersive portals"
 	}
 }
