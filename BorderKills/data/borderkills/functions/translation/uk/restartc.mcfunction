@@ -1,3 +1,2 @@
-tellraw @a ["",{"text":"\u0413\u043e\u0442\u043e\u0432\u043e. \u0412\u0432\u0435\u0434\u0456\u0442\u044c \"/function borderkills:start\" \u0430\u0431\u043e \u043d\u0430\u0436\u043c\u0456\u0442\u044c ","color":"green"},{"text":"\u0441\u044e\u0434\u0438","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/function borderkills:start"}},{"text":".","color":"green"}]
-
+/tellraw @p ["",{"text":"Готово. Введіть \"/function borderkills:start\" або нажміть ","color":"green"},{"text":"сюди","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/function borderkills:start"}},{"text":".","color":"green"}]
 scoreboard players set Started BorderChangerKills 0
