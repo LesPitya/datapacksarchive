@@ -1,11 +1,12 @@
 # Завантажує переклад
 
 # data modify storage minecraft:borderchanger translation.language set value en
-# function borderkills:translation_en
 
-function borderkills:translation/start with storage minecraft:borderchanger translation
+execute if score Started BorderChangerKills matches 0 run function borderkills:translation/en
 
-execute if score Started BorderChangerKills matches 1 run return run function borderkills:restart with storage minecraft:borderchanger translation
+function borderkills:message {"phrase":"menu"}
+
+execute if score Started BorderChangerKills matches 1 run return run function borderkills:message {"phrase":"restart"}
 
 # Три варіанти розширення бар'єра: 1 - лише за мобів, 2 - лише за гравців, 3 - за будь яке вбивство
 scoreboard objectives add BorderChangerKills minecraft.custom:minecraft.mob_kills
@@ -29,7 +30,7 @@ execute store result storage minecraft:borderchanger Center.y int 1 run data get
 execute store result storage minecraft:borderchanger Center.z int 1 run data get entity @s Pos[2] 1
 
 function borderkills:setcenter with storage minecraft:borderchanger Center
-schedule function borderkills:checkscorereload 5s
+schedule function borderkills:checkscore 5s
 
 worldborder warning distance 0
 worldborder set 1 10

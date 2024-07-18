@@ -1,1 +1,0 @@
-tellraw @p ["",{"text":"Click ","color":"green"},{"text":"here","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/function borderkills:translation/uk/restartc"},"hoverEvent":{"action":"show_text","contents":[{"text":"You will not be able to undo it.","color":"red"}]}},{"text":" if you want to restart the border progress","color":"green"}]

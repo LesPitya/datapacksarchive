@@ -1,1 +1,0 @@
-$function borderkills:translation/$(language)/start

@@ -4,13 +4,13 @@ scoreboard players operation Changer BorderChangerKills += @p[scores={BorderChan
 
 scoreboard players set @r[scores={BorderChangerKillsCheck=1}] BorderChangerKillsCheck -1
 
-execute if entity @a[scores={BorderChangerKillsCheck=0}] run return run schedule function borderkills:checkscorereload 1t 
+execute if entity @a[scores={BorderChangerKillsCheck=0}] run return run schedule function borderkills:checkscore 1t 
 
 scoreboard players set @a BorderChangerKillsCheck 0
 
-execute if score Changer BorderChangerKills matches 0 run return run schedule function borderkills:checkscorereload 5s
+execute if score Changer BorderChangerKills matches 0 run return run schedule function borderkills:checkscore 5s
 
-$function borderkills:translation/$(language)/change
+function borderkills:message {"phrase":"change"}
 
 scoreboard players operation Changer BorderChangerKills *= 2 BorderChangerKills
 
@@ -23,4 +23,4 @@ function borderkills:changesize with storage minecraft:borderchanger length
 scoreboard players set @a BorderChangerKills 0
 scoreboard players set Changer BorderChangerKills 0
 
-schedule function borderkills:checkscorereload 5s
+schedule function borderkills:checkscore 5s
